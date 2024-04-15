@@ -13,9 +13,7 @@ public class TiposDePagos {
     private String nombre;
     private String descripcion;
 
-    public TiposDePagos() {
-    }
-
+ 
     public TiposDePagos(int idTipoPago, String nombre, String descripcion) {
         this.idTipoPago = idTipoPago;
         this.nombre = nombre;
